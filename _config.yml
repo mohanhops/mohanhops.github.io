@@ -1,6 +1,6 @@
 title: "Mohan's Blog"
 author: "Mohan Babu L"
-description: "Talks about HPC and Cloud." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "Explore unknown things in life to make it more alive"
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -27,6 +27,16 @@ plugins:
 titles_from_headings:
   strip_title: true
   collections: true
+
+header_pages:
+  - resume.html
+  - archive.html
+  - bookmarks
+
+home_post_limit: 5
+
+# The github repo that is to be used for looking up comments
+comments_repo: chadbaldwin/chadbaldwin.github.io
 
 defaults:
   - scope:
