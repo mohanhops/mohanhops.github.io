@@ -36,7 +36,7 @@ header_pages:
 home_post_limit: 5
 
 # The github repo that is to be used for looking up comments
-comments_repo: chadbaldwin/chadbaldwin.github.io
+comments_repo: mohanhops/mohanhops.github.io
 
 defaults:
   - scope:
