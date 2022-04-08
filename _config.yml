@@ -31,7 +31,7 @@ titles_from_headings:
 header_pages:
   - resume.html
   - archive.html
-  - bookmarks
+  - bookmarks.md
 
 home_post_limit: 5
 
