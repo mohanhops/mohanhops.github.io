@@ -3,7 +3,7 @@ theme: minima
 title: Mohan's Blog
 author: Mohan Babu
 email: mohanchinna2@gmail.com
-url: https://mohanhops.net
+url: https://mohanhops.github.io
 
 timezone: UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
@@ -30,7 +30,7 @@ social-links:
   Resume:        https://mohanhops.net/resume
   LinkedIn:      https://linkedin.com/in/lmbabu
   GitHub:        https://github.com/mohanhops
-  Website:       https://mohanhops.net
+  Website:       https://mohanhops.github.io
 
 # plugin: jekyll-seo-tag
 social:
