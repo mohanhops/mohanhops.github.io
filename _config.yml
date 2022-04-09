@@ -1,37 +1,63 @@
-title: "Mohan's Blog"
-author: "Mohan Babu L"
-description: "Explore unknown things in life to make it more alive"
+theme: minima
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-email: "mohanchinna2@gmail.com"
-github_username: "mohanhops"
-linkedin_username: "lmbabu"
+title: Mohan's Blog
+author: Mohan Babu
+email: mohanchinna2@gmail.com
 url: https://mohanhops.net
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
+timezone: UTC # GitHub uses UTC. This is to force dev environment to match
+future: false # GitHub Pages will publish future posts if this isn't set to false
 
+description: >
+  My first blog. if you are here give me a smile :).
+
+# Minima variables
+github_username:   mohanhops
+linkedin_username: lmbabu
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
 rss: rss
 
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+show_excerpts: false
 
+# Used by simple links page
+social-links:
+  Resume:        https://mohanhops.net/resume
+  LinkedIn:      https://linkedin.com/in/lmbabu
+  GitHub:        https://github.com/mohanhops
+  Website:       https://mohanhops.net
+
+# plugin: jekyll-seo-tag
+social:
+  name: Mohan Babu L
+  links:
+    - https://linkedin.com/in/lmbabu
+    - https://github.com/mohanhops
+
+# plugin: jekyll-titles-from-headings
 titles_from_headings:
   strip_title: true
-  collections: true
+
+collections:
+  personal: # collection for personal blog posts
+    output: true
 
 header_pages:
   - resume.html
   - archive.html
+  - books.md
   - bookmarks.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+code_block_max_height: 500px
 
 home_post_limit: 5
 
@@ -41,6 +67,16 @@ comments_repo: mohanhops/mohanhops.github.io
 defaults:
   - scope:
       path: ""
-      type: post
     values:
-      tags: Other
+      image: /img/display # Apply default site image
+  - scope:
+      path: ""
+      type: posts
+    values:
+      tags: Other # Add a default tag to all posts
+
+# Disable highlighting to use highlightJS instead
+# highlighter: none # Not supported by GitHub Pages
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
