@@ -2,17 +2,18 @@
   uni: National Institute of Technology, Puducherry
   year: 2016
   summary: >
-    Focused on computer science and presented thesis on Crime Prediction in Smart City.
+    Focused on computer science and presented thesis on Crime Prediction in Smart City. 
     Summer Reasearch Intern at IIITD&M Kancheepuram.
 
 - degree: B.Tech. Computer Science
   uni: AITS, Rajampet
   year: 2014
-  awards:
-    - award: First Prize at 14th National level technical Symposium on Palm Vein Technology paper.
+
   summary: >
     Focused on computer science and received degree with distinction.
-
+  
+  awards:
+    - award: First Prize at 14th National level technical Symposium on Palm Vein Technology paper.
 #- degree: High School Diploma
 #  uni: Fountain Valley High School
 #  year: 2008
