@@ -1,0 +1,25 @@
+#- skill: string
+#  description: string
+#  list:
+#    - array
+#    - of
+#    - strings
+#
+# Template supports both a description AND a skill list, however it may look best if only one or the
+# other is used. Lists are sorted and concatenated without line breaks separated by • (&bull;)
+
+- skill: Benchmarking, HPC application porting and Tuning, DevOps, Cloud Computing
+  description: "6 years of experience in HPC Engineering and Cloud Analytics"
+- skill: Python, Bash and C
+  description: "6+ years experience with Python and 3+ years of experience working with Bash and C and task automation."
+- skill: Tools & Technologies
+  list:
+    - AWS Services (incl. Console, EC2, ParallelCluster, S3, Lambda)
+    - Confluence
+    - Docker
+    - Elasticsearch
+    - Excel
+    - git
+    - Jira
+    - Visual Studio
+    

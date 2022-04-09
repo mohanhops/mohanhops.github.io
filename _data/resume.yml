@@ -1,0 +1,28 @@
+theme: default
+header:
+  name: Mohan Babu
+  suffix: HPC
+  display_contact_info: true
+  current_title: Senior Engineer
+  intro: >
+    Motivated and versatile software developer. Proficient in HPC application benchmarking, porting and tuning.
+    Always looking for new challenges and new technologies to learn. 
+    Efficient working both independently and in a team environment.
+contact:
+  #address: Bangalore, IN
+  #phone: (91) 9966112624
+  email: mohanchinna2@gmail.com
+sections:
+  experience:   true
+  education:    true
+  projects:     true
+  skills:       true
+  recognition:  true
+  associations: false
+  interests:    true
+  links:        true
+  social_links: false
+social:
+  Website:    http://mohanhops.github.io
+  GitHub:     https://github.com/mohanhops
+  LinkedIn:   https://linkedin.com/in/lmbabu

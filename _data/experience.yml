@@ -1,0 +1,28 @@
+- company: "AMD"
+  logo: "/img/companylogos/aa.png"
+  url: "https://www.amd.com/"
+  positions:
+  - title: "Senior Software Engineer"
+    startdate: 2019-02-01
+    summary: "Primarily working with HPC application Benchmarking and Tuning, Python and Shell;"
+    projects:
+      - "Developed Spack recipes for 15+ HPC applications with AMD toolchain support which simplifies building and running Scientific codes on AMD EPYC Servers by contributing to Open Source Spack project."
+      - "Ported 5+ Parallel Scientific codes with AMD CPU toolchain and generated detailed performance benchmarking report which then used by Compilers and Libraries team to improve application performance."
+      - "Collaborated with Compilers and Libraries team to build a Jenkins pipeline to validate HPC applications functional and performance behaviour with monthly stable releases which helped teams to reduce turn around time in fixing the issues."
+      - "Evaluated 20+ HPC applications with 3 Toolchains on various AMD EPYC generations (Zen2, Zen3) to assess software and hardware performance against Competition which helped in setting up the goals."
+      - "Addressed 50+ customer issues/requests and raised 20+ defects in Compilers and Libraries."
+    
+
+- company: "SecureKloud"
+  logo: "/img/companylogos/bb.jpg"
+  url: "https://www.securekloud.com/"
+  positions: 
+  - title: "Senior Associate - Data Science"
+    startdate: 2016-06-06
+    enddate: 2019-01-31
+    summary: "Worked with world class Cloud Service Prodiders to Evaluate their Cognative abilities of Cloud with other major vendors. Built systems and tools to automate the process of submitting input dataset to the service and parse the output."
+    projects:
+      - "Developed a video annotation tool to annotate faces and emotions at frame level and achieved more than 50% reduction in time to create gold standard data set with increased accuracy in the annotation."
+      - "Developed 10+ Client API python scripts to communicate with various cloud services to load, store and get response then parse the response into readable format."
+      - "Worked on a POC on Natural Language User Interface (NLUI), enables users to compose questions in Natural Language and receive the response also in Natural Language from internal database, it worked for small queries."
+      - "Generated benchmark reports on Sentiment Analysis, OCR and Face detection for Cognitive services on AWS, GCP, Azure and IBM cloud."

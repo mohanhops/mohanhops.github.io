@@ -1,0 +1,11 @@
+- award: "Executive Spot Light: Spack Development and Promoting AMD CPU Toolchain"
+  organization: AMD
+  year: "2021"
+  summary: > 
+    For Excellent job done in promoting AMD CPU toolchain to ISV customers and Universities.
+
+- award: "Spot Light: Leading the Spack Development with CPU Toolchain"
+  organization: AMD
+  year: "2020"
+  summary: > 
+    For developing Spack recipes for Tier-1 HPC applications with AMD CPU toolchain support.
