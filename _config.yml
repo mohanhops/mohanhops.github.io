@@ -68,7 +68,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /img/display # Apply default site image
+      image: /img/dp.png # Apply default site image
   - scope:
       path: ""
       type: posts
