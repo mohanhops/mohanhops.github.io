@@ -4,7 +4,7 @@
   positions:
   - title: "Senior Software Engineer"
     startdate: 2019-02-01
-    summary: "Primarily working with HPC application Benchmarking and Tuning, Python and Shell;"
+    summary: "Primarily working with HPC application Benchmarking and Tuning, Python and Shell"
     projects:
       - "Developed Spack recipes for 15+ HPC applications with AMD toolchain support which simplifies building and running Scientific codes on AMD EPYC Servers by contributing to Open Source Spack project."
       - "Ported 5+ Parallel Scientific codes with AMD CPU toolchain and generated detailed performance benchmarking report which then used by Compilers and Libraries team to improve application performance."

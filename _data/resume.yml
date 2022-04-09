@@ -1,7 +1,7 @@
 theme: default
 header:
   name: Mohan Babu
-  suffix: HPC
+  suffix: 
   display_contact_info: true
   current_title: Senior Engineer
   intro: >
@@ -15,13 +15,12 @@ contact:
 sections:
   experience:   true
   education:    true
-  projects:     true
   skills:       true
   recognition:  true
   associations: false
   interests:    true
   links:        true
-  social_links: false
+  social_links: true
 social:
   Website:    http://mohanhops.github.io
   GitHub:     https://github.com/mohanhops
