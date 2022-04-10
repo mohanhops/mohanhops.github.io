@@ -51,7 +51,7 @@ header_pages:
   - resume.html
   - archive.html
   - bookmarks.md
-  - about.md
+  - index.md
 
 plugins:
   - jekyll-feed
