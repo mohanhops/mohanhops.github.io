@@ -26,23 +26,13 @@ There are many reasons for Linux to be extreamly popular, will try to list key f
 4. Task Austomation
    * Becasue of default shell (`bash`, `zsh`, `sh` .. etc) support in Linux, users can automate most of the regular stuff efficiently on Linux
 
-#### Some T-SQL Code
+### How to Install Linux
+There are many varients of Linux is available for public. why?
+   * Why there are so many cars? Because there are several vehicle manufacturers using the ‘Linux engine’ and each of them has many cars of different types and for different purposes. Since the ‘Linux engine’ is free to use and modify, anyone can use it to build a vehicle on top of it.
 
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-```
+For Servers: CentOS 8 (RHEL without Licence) is most widely used across data centers.
 
-#### Some PowerShell Code
+To Install it on Server: [Guide](https://linuxhint.com/install_centos_8_server/)
+To Install it on Laptop/Desktop: [Guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) 
 
-```powershell
-Write-Host "This is a powershell Code block";
-
-# There are many other languages you can use, but the style has to be loaded first
-
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
-```
+### Basic commands 
