@@ -28,7 +28,7 @@ There are many reasons for Linux to be extreamly popular, will try to list key f
 
 ### How to Install Linux
 There are many varients of Linux is available for public. why?
-   * Why there are so many cars? Because there are several vehicle manufacturers using the ‘Linux engine’ and each of them has many cars of different types and for different purposes. Since the ‘Linux engine’ is free to use and modify, anyone can use it to build a vehicle on top of it.
+   * Why there are so many cars? Because there are several vehicle manufacturers using the ‘Linux engine’ and each of them has different types and for different purposes. Since the ‘Linux engine’ is free to use and modify, anyone can use it to build a vehicle on top of it.
 
 For Servers: CentOS 8 (RHEL without Licence) is most widely used across data centers.
 
