@@ -14,19 +14,22 @@ Will discuss about key things in Linux from the above image further in our discu
 There are many reasons for Linux to be extreamly popular, will try to list key factors here:
 1. Linux has less security flaws
 
-...As Linux is Open Source code, huge number of developers will review the code constantly⋅⋅
-...Linux has password authentication, file system discretionary access control, and security auditing, these 3 fundamental security features are essential
+⋅⋅⋅As Linux is Open Source code, huge number of developers will review the code constantly⋅⋅  
+⋅⋅⋅Linux has password authentication, file system discretionary access control, and security auditing, these 3 fundamental security features are essential  
+
 2. Linux is Free OS
 
-...Linux has no licence cost to use it unlike other OS like Windows it is free
+...Linux has no licence cost to use it unlike other OS like Windows it is free  
+
 3. Performance
 
-...Linux doesn't have bloat UI features which makes it light weight
-...Linux can run on almost any architecture (`x86`, `ARM`, `RISC-V` .. etc)
-...Linux has organized file system hence it is easy to perform file operatins quickly 
+...Linux doesn't have bloat UI features which makes it light weight  
+...Linux can run on almost any architecture (`x86`, `ARM`, `RISC-V` .. etc)  
+...Linux has organized file system hence it is easy to perform file operatins quickly  
+
 4. Task Austomation
 
-...Becasue of default shell (`bash`, `zsh`, `sh` .. etc) support in Linux, users can automate most of the regular stuff efficiently on Linux 
+...Becasue of default shell (`bash`, `zsh`, `sh` .. etc) support in Linux, users can automate most of the regular stuff efficiently on Linux  
 
 #### Some T-SQL Code
 
