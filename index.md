@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+The aim of this blog it to help people who has no prior or intermediate experience in HPC and Cloud.
 
-Maybe say a some things about yourself.
+This Blog explain best practices in HPC and Cloud, When I started my journey in HPC field I wasn't aware of many things and could not find much help on HPC,
 
-Or maybe what you plan to blog about.
+I see HPC is very old field and it is currenlty emerging with Cloud technologies hence many people are looking for the help online for the same.
