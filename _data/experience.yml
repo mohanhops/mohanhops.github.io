@@ -4,7 +4,7 @@
   positions:
   - title: "Senior Software Engineer"
     startdate: 2019-02-01
-    summary: "Primarily working with HPC application Benchmarking and Tuning, Python and Shell"
+    summary: "Primarily working with HPC application Benchmarking and Tuning, Linux, Python and Shell"
     projects:
       - "Developed Spack recipes for 15+ HPC applications with AMD toolchain support which simplifies building and running Scientific codes on AMD EPYC Servers by contributing to Open Source Spack project."
       - "Ported 5+ Parallel Scientific codes with AMD CPU toolchain and generated detailed performance benchmarking report which then used by Compilers and Libraries team to improve application performance."
@@ -20,7 +20,7 @@
   - title: "Senior Associate - Data Science"
     startdate: 2016-06-06
     enddate: 2019-01-31
-    summary: "Worked with world class Cloud Service Prodiders to Evaluate their Cognative abilities of Cloud with other major vendors. Built systems and tools to automate the process of submitting input dataset to the service and parse the output."
+    summary: "Worked with world class Cloud Service Providers to Evaluate their Cognitive abilities on the Cloud with competition. Built systems and tools to automate the process of submitting input dataset to the targeted Cloud Services and parse the output to present the response in human readable format."
     projects:
       - "Developed a video annotation tool to annotate faces and emotions at frame level and achieved more than 50% reduction in time to create gold standard data set with increased accuracy in the annotation."
       - "Developed 10+ Client API python scripts to communicate with various cloud services to load, store and get response then parse the response into readable format."
