@@ -50,8 +50,8 @@ collections:
 header_pages:
   - resume.html
   - archive.html
-  - books.md
   - bookmarks.md
+  - about.md
 
 plugins:
   - jekyll-feed
