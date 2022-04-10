@@ -37,8 +37,7 @@ For Servers: CentOS 8 (RHEL without License) is most widely used across data cen
 
 ### Basic commands 
 #### Create New User
-Note: To create new user, we need to have sudo permissions on the machine
-``` Shell Commands
+```console
 useradd mohan          # Creates username
 groupmod  mohan        # Creates Group name
 passwd mohan           # Asks for user input to set password
@@ -47,3 +46,4 @@ chown -R mohan:mohan /home/mohan  # Setup group policies
 usermod -d /home/mohan -m mohan   # Modifies user login
 sudo chsh -s /bin/bash mohan      # Change default shell to bin/bash  
 ```
+Note: To create new user, we need to have sudo permissions on the machine
