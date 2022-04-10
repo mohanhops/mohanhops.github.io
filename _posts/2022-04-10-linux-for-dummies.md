@@ -47,3 +47,9 @@ usermod -d /home/mohan -m mohan   # Modifies user login
 sudo chsh -s /bin/bash mohan      # Change default shell to bin/bash  
 ```
 Note: To create new user, we need to have sudo permissions on the machine
+
+#### Simple Bash Commands
+```console
+$
+```
+TBD
