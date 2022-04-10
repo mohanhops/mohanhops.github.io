@@ -36,4 +36,14 @@ For Servers: CentOS 8 (RHEL without License) is most widely used across data cen
    * To Install it on Laptop/Desktop: [Guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) 
 
 ### Basic commands 
-TBD
+#### Create New User
+Note: To create new user, we need to have sudo permissions on the machine
+``` Shell Commands
+useradd mohan          # Creates username
+groupmod  mohan        # Creates Group name
+passwd mohan           # Asks for user input to set password
+mkdir /home/mohan  -p  # Creates user space under home
+chown -R mohan:mohan /home/mohan  # Setup group policies 
+usermod -d /home/mohan -m mohan   # Modifies user login
+sudo chsh -s /bin/bash mohan      # Change default shell to bin/bash  
+```
