@@ -50,6 +50,15 @@ Note: To create new user, we need to have sudo permissions on the machine
 
 #### Simple Bash Commands
 ```console
-$
+$ ls -l  # To list all files in PWD in long format
+$ cd -   # To goto last working directory
+$ cd ..  # To goto parent directory
+$ echo "Hello World"  # prints Hello World to Console
+$ pwd    # prints current working dir full path
+$ cp -r src/ dst/  # To copy recursivly all files in src/ to dst/
+$ mv src/ dst/     # To move all files in src/ to dst/ and rename src/ to dst/
+$ cat file.txt     # prints contents of file.txt to console
+$ rm file.txt      # removes file.txt if it is exist in the PWD
+$ rm -rf dir/      # To remove full dirctory
 ```
 TBD
