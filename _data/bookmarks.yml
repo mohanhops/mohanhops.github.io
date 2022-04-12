@@ -1,6 +1,6 @@
 MPI:
   - name: MPI Wiki
-    description: List of all known execution commands
+    description: Summary of known MPI execution commands
     link: https://hpc-wiki.info/hpc/Binding/Pinning
 
  
@@ -8,3 +8,7 @@ reference:
   - name: Linux Github
     description: Reference link for Linux Repo
     link: https://github.com/torvalds/linux
+    
+  - name: Linux commands
+    description: Linux Commands Handout
+    link: /assets/Linux_Notes.pdf
