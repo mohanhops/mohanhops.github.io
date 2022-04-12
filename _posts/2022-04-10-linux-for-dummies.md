@@ -17,10 +17,11 @@ There are many reasons for Linux to be extremely popular, will try to list key f
    * Linux has password authentication, file system discretionary access control, and security auditing, these 3 fundamental security features are essential
 
 2. Linux is Free OS
-   * Linux has no license cost to use it unlike other OS like Windows it is free
+   * Linux has no license cost to use it unlike other OS like Windows
 
 3. Performance
-   * Linux doesn't have bloat UI features which makes it light weightLinux can run on almost any architecture (`x86`, `ARM`, `RISC-V` .. etc)
+   * Linux doesn't have bloat UI features which makes it light weight
+   * Linux can run on almost any architecture (`x86`, `ARM`, `RISC-V` .. etc)
    * Linux has organized file system hence it is easy to perform file operations quickly  
 
 4. Task Automation
