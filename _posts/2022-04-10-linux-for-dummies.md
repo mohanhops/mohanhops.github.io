@@ -1,7 +1,7 @@
-## What is Linux?
+# What is Linux?
 
-Linux is an open-sourced OS, written 98% of the code in `C Programming Language` invented by **Linus Torvalds**.
-Linux source code is available [here](https://github.com/torvalds/linux)
+Linux is an open-sourced OS, written 98% of the code in `C Programming Language` created by **Linus Torvalds** as a hobby.
+Linux source code is freely available [here](https://github.com/torvalds/linux)
 
 The structure of the linux code
 ![Linux][logo]
@@ -10,7 +10,7 @@ The structure of the linux code
 
 Will discuss about key things in Linux from the above image further in our discussion. 
 
-### Why Linux?
+# Why Linux?
 There are many reasons for Linux to be extremely popular, will try to list key factors here:
 1. Linux has less security flaws
    * As Linux is Open-Source code, huge number of developers will review the code constantly
@@ -45,6 +45,7 @@ $ chsh -l      # To know all available Shells in the machine
 $ cat /etc/shells      # To know all available Shells in the machine
 $ chsh -s /usr/bin/sh  # To chnage the Shell for user, this will require reboot
 ```
+
 File Management Commands
 ------------------------
 ```bash
@@ -64,6 +65,7 @@ $ chmod 777 file       # Give read, write and execute permissions to file
 $ chown owner1 file    # Change file owner to owner1
 $ chgrp grp_owner file # Change group permissions to grp_owner
 ```
+
 Create New User
 ---------------
 ```bash
