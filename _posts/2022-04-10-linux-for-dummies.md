@@ -35,7 +35,8 @@ For Servers: CentOS 8 (RHEL without License) is most widely used across data cen
    * To Install it on Server: [Guide](https://linuxhint.com/install_centos_8_server/)
    * To Install it on Laptop/Desktop: [Guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) 
 
-### Getting Started with Linux
+Getting Started with Linux
+--------------------------
 Large portions of Linux functionality are achieved using the terminal, **Bash (Bourne Again SHell)** is a common default shell among many Linux distributions.
 To know which Shell is default in your system:
 ```bash
