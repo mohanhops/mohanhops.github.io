@@ -19,7 +19,6 @@ sections:
   recognition:  true
   associations: false
   interests:    true
-  links:        true
   social_links: true
 social:
   Website:    http://mohanhops.github.io
