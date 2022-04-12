@@ -243,16 +243,6 @@
   </section>
 {%- endif -%}
 
-{%- if resume.sections.links -%}
-  <section class="content-section">
-    <header class="section-header"><h2>Additional Links</h2></header>
-    <div class="resume-item">
-      <ul class="resume-item-list">
-        {%- for item in site.data.links -%}<li><strong>{{ item.name }}</strong>: <a href="{{ item.url }}" target="_blank">{{ item.label }}</a></li>{%- endfor -%}
-      </ul>
-    </div>
-  </section>
-{%- endif -%}
 
 {%- if resume.sections.social_links -%}
   <section class="content-section">
