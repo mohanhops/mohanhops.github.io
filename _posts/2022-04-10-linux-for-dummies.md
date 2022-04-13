@@ -1,6 +1,7 @@
 # What is Linux?
 
-Linux is an open-sourced OS, written 98% of the code in `C Programming Language` created by **Linus Torvalds** as a hobby.
+Linux is an open-sourced OS. 
+Linux was Created by **Linus Torvalds** as a hobby and written 98% of the code in `C Programming Language`.
 Linux source code is freely available [here](https://github.com/torvalds/linux)
 
 The structure of the linux code
