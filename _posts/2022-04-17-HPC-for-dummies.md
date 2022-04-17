@@ -65,7 +65,7 @@ With advancements in cloud technologies, HPC solutions have become more accessib
 #### Server Rack
 ![server_rack](/img/hpc_beginner/server_rack.jpg) 
 #### Server Room
-![server_room](/img/hpc_beginner/server_room1.jpg) 
+![server_room](/img/hpc_beginner/server_room1.webp) 
   
 # Anatomy of HPC Cluster
 
