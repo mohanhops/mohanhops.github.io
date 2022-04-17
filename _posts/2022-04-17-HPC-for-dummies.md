@@ -58,14 +58,14 @@ With advancements in cloud technologies, HPC solutions have become more accessib
 
 #### Mother Borad of Comptute Server with 2 Processor
 ![motherboard](/img/hpc_beginner/2p_motherboard2.jpg)
-#### Storage Server 2 with RAID Configuration
+#### Storage Server with RAID Memory Configuration
 ![storage](/img/hpc_beginner/strore1.JPG) 
 ####  Network Server
 ![network](/img/hpc_beginner/network.JPG)
 #### Server Rack
 ![server_rack](/img/hpc_beginner/server_rack.jpg) 
 #### Server Room
-![server_room](/img/hpc_beginner/server_room2.jpg) 
+![server_room](/img/hpc_beginner/server_room1.jpg) 
   
 # Anatomy of HPC Cluster
 
@@ -110,6 +110,11 @@ Software for an efficiently running of an HPC cluster needs to manage the massiv
 The core of any HPC cluster is the scheduler, used to keep track of available resources, allowing job requests to be efficiently assigned to various compute resources (CPU and GPU) via fast network.
 
 ![software](/img/hpc_beginner/software1.jpg)
+
+### Open Source Tools to Configure HPC Clusters
+ * OpenHPC
+   - OpenHPC is a collaborative, community effort that initiated from a desire to aggregate a number of common ingredients required to deploy and manage High Performance Computing (HPC) Linux clusters including provisioning tools, resource management, I/O clients, development tools, and a variety of scientific libraries. Packages provided by OpenHPC have been pre-built with HPC integration in mind with a goal to provide re-usable building blocks for the HPC community.
+   - Link: https://openhpc.community/
 
 # HPC Applications
 
