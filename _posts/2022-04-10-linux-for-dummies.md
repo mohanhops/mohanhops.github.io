@@ -4,7 +4,7 @@ Linux is an open-sourced OS, was created by **Linus Torvalds** as a hobby and wr
 
 Linux source code is freely available [here](https://github.com/torvalds/linux)
 
-The structure of the linux code
+The structure of the linux File System
 ![Linux][logo]
 
 [logo]: /img/linux/linux_filestrucure.png "Linux File Hierarchy"
