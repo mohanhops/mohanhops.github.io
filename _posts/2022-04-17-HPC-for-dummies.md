@@ -58,14 +58,14 @@ With advancements in cloud technologies, HPC solutions have become more accessib
 
 #### Mother Borad of Comptute Server with 2 Processor
 ![motherboard](/img/hpc_beginner/2p_motherboard2.jpg)
-#### Storage Server 2 with RAID Configuration
-![storage](/img/hpc_beginner/store1.jpg) 
+#### Storage Server with RAID Memory Configuration
+![storage](/img/hpc_beginner/strore1.JPG) 
 ####  Network Server
-![network](/img/hpc_beginner/network.jpg)
+![network](/img/hpc_beginner/network.JPG)
 #### Server Rack
 ![server_rack](/img/hpc_beginner/server_rack.jpg) 
 #### Server Room
-![server_room](/img/hpc_beginner/server_room2.jpg) 
+![server_room](/img/hpc_beginner/server_room1.jpg) 
   
 # Anatomy of HPC Cluster
 
@@ -85,7 +85,7 @@ Depending on how the nodes are connected various topologies evolved, most popula
 Fat-Tree is one of the most widely used topologies. It is a good option for a variety of applications as it provides low latency and enables a variety of throughput options – from non-blocking connectivity to oversubscriptions. Highly scalable dragonfly topology provides good performance for a variety of applications (or communication patterns), like Fat-Tree; specifically, it reduces network costs compared to other topologies, by reducing the number of long links.
 
 #### Exmaple block diagram for Fat-Tree topology
-![hpc_1](/img/hpc_beginner/hpc_1.jpg)
+![hpc_1](/img/hpc_beginner/hpc_1.JPG)
 
 ### Head node or login node
 
@@ -110,6 +110,11 @@ Software for an efficiently running of an HPC cluster needs to manage the massiv
 The core of any HPC cluster is the scheduler, used to keep track of available resources, allowing job requests to be efficiently assigned to various compute resources (CPU and GPU) via fast network.
 
 ![software](/img/hpc_beginner/software1.jpg)
+
+### Open Source Tools to Configure HPC Clusters
+ * OpenHPC
+   - OpenHPC is a collaborative, community effort that initiated from a desire to aggregate a number of common ingredients required to deploy and manage High Performance Computing (HPC) Linux clusters including provisioning tools, resource management, I/O clients, development tools, and a variety of scientific libraries. Packages provided by OpenHPC have been pre-built with HPC integration in mind with a goal to provide re-usable building blocks for the HPC community.
+   - Link: https://openhpc.community/
 
 # HPC Applications
 
