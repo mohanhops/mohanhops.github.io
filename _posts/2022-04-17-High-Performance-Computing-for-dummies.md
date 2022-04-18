@@ -111,7 +111,7 @@ The core of any HPC cluster is the scheduler, used to keep track of available re
 
 ![software](/img/hpc_beginner/software1.jpg)
 
-### Open Source Tools to Configure HPC Clusters
+### Open Source Tools for Cluster Management
  * OpenHPC
    - OpenHPC is a collaborative, community effort that initiated from a desire to aggregate a number of common ingredients required to deploy and manage High Performance Computing (HPC) Linux clusters including provisioning tools, resource management, I/O clients, development tools, and a variety of scientific libraries. Packages provided by OpenHPC have been pre-built with HPC integration in mind with a goal to provide re-usable building blocks for the HPC community.
    - Link: https://openhpc.community/
