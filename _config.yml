@@ -9,7 +9,7 @@ timezone: UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
 
 description: >
-  My first blog, your feedback is appreciated.
+  HPC, DevOps, Linux and Cloud
 
 # Minima variables
 github_username:   mohanhops
