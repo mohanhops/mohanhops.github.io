@@ -61,7 +61,7 @@ Due to the low investment costs, HPCaaS is becoming an alternative to on-premise
 
 ## When to Switch to HPCaaS?
 
--	Cloud switching costs too high for AstraZeneca
+- Cloud switching costs too high for AstraZeneca
   * “On-premise is between five and seven times cheaper than doing a similar type of activity in the cloud,” says Scott Hunter, AstraZeneca’s global infrastructure director.
   * The reason why there is such a high cost associated with cloud-based HPC for AstraZeneca is that it works with a lot of double-precision chemistry workloads, which tend to be operational 24 hours a day, 365 days a year. 
   * “That means that unless we get a cracking deal from one of the major public cloud vendors or Oracle, it makes sense to run on-premise because of the cost,” says Hunter.
