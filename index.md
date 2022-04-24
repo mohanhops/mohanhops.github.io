@@ -1,3 +1,10 @@
-This blog talks about Linux System Administration, Automation, DevOps, HPC application benchmarking and Cloud Computing.
+This blog talks about
+### HPC
+- Best practices in HPC
+- Linux System Administation tips
+- DevOps for HPC
+- Application Benchmarking
 
-Here, I will try to post best practices used in HPC domain and Linux.
+### Cloud Computing
+- Best practices in Cloud Computing
+- HPC for the Cloud
