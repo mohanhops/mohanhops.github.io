@@ -66,8 +66,6 @@ Due to the low investment costs, HPCaaS is becoming an alternative to on-premise
   * The reason why there is such a high cost associated with cloud-based HPC for AstraZeneca is that it works with a lot of double-precision chemistry workloads, which tend to be operational 24 hours a day, 365 days a year. 
   * “That means that unless we get a cracking deal from one of the major public cloud vendors or Oracle, it makes sense to run on-premise because of the cost,” says Hunter.
 
-## Conclusion
-
 There are Pros and Cons of using HPC in the Cloud. Often it is not attractive to move all HPC workloads to the Cloud to leverage advantages.
 
 A typical feasible approach is “Hybrid HPC”: move part of the HPC workload to the Cloud most suitable for HPC resources in the cloud and keep part of it on-premises in the own data center.
