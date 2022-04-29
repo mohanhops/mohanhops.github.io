@@ -7,4 +7,4 @@ This blog talks about
 
 ### Cloud Computing
 - Best practices in Cloud Computing
-- HPC for the Cloud
+- HPC in the Cloud
