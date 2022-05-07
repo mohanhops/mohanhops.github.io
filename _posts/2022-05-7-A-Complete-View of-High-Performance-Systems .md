@@ -11,9 +11,7 @@ Typical HPC systems have 3 main components:
 
 HPC solutions can be deployed on Cloud, Edge, and On-Premises. Let’s dive deep into each component of the HPC System.
 
-<p align="center">
-  <img width="800" height="500" src="/img/basics/block_diag.JPG">
-</p>
+![img1](/img/basics/block_diag.JPG)
 
 # Compute
 
@@ -34,9 +32,8 @@ To build a high-performance computing architecture, compute servers are networke
    *	Intel developed OneAPI, a HPC software suite optimized for its hardware. AMD is also have AOCC, AOCL software products which are optimized for their hardware.
    *	Here is the comparison between two flagship processors released in 2021.
 
-<p align="center">
-  <img width="450" height="200" src="/img/basics/amd_vs_int.jpg">
-</p>
+
+![img2](/img/basics/amd_vs_int.jpg)
 
 ### GPU
 
@@ -45,18 +42,14 @@ To build a high-performance computing architecture, compute servers are networke
 -	CPU and GPU are two distinct types of processors. CPU is aimed at general purpose instruction streams, and GPU is aimed at bulk data handling. Hence, instructions vs data processing is what separates a CPU from a GPU.
 -	Due to parallel architecture and high-performance nature of GPUs, it offers computing speedups for certain workloads such as AI and ML.  
 
-<p align="center">
-  <img width="500" height="300" src="/img/basics/gpu.JPG">
-</p>
+![img3](/img/basics/gpu.JPG)
 
 * **AMD vs NVIDIA**
    *	For HPC needs, AMD ships AMD Instinct GPUs (Ex: MI200 series) and NVIDIA ships NVIDIA Ampere Series GPUs (Ex: A100 Series GPUs).
    *	The software stack consists of the compilers and math libraries in the ROCm stack from AMD for its own GPUs versus the CUDA stack from Nvidia for its own GPUs.
    *  Here is the comparison between two flagship processors released in 2021.
 
-<p align="center">
-  <img width="600" height="200" src="/img/basics/amd_vs_nv.jpg">
-</p>
+![img4](/img/basics/amd_vs_nv.jpg)
 
 # Storage
 
@@ -71,18 +64,14 @@ To build a high-performance computing architecture, compute servers are networke
    *	As the name suggests, is a file system that is distributed across multiple file servers or multiple locations. Its primary purpose is to reliably store files.
    *	DFS provides transparency data even if server or disk fails, allows data to be shared remotely. 
 
-<p align="center">
-  <img width="500" height="400" src="/img/basics/dfs.JPG">
-</p>
+![img5](/img/basics/dfs.JPG)
 
 * **Parallel File Systems (PFS)**
    *	PFS has ability to do IO in parallel to multiple file servers, i.e a client can directly access several storage servers in parallel to take advantage of the aggregated bandwidth of multiple servers.
    *	Parallel file systems distribute data of a single object across mul4ple storage nodes.
    *	Popular parallel file systems are Lustre, Ceph, IBM Spectrum Scale, and BeeGFS.
 
-<p align="center">
-  <img width="500" height="400" src="/img/basics/pfs.JPG">
-</p>
+![img6](/img/basics/pfs.JPG)
 
 * **Scratch File Systems**
    *	The scratch file systems are intended for temporary and intermediate files, so they are not backed up. For example, /tmp directory in Cluster.
@@ -123,9 +112,7 @@ To build a high-performance computing architecture, compute servers are networke
 
 #### HPC System Infrastructure
 
-<p align="center">
-  <img width="900" height="300" src="/img/basics/sw_stack.JPG">
-</p>
+![img7](/img/basics/sw_stack.JPG)
 
 **Cluster Provisioning Tools**: 
 There are mainly 2 Cluster management solutions for provisioning of cluster which are Bright Cluster Manager and OpenHPC.
