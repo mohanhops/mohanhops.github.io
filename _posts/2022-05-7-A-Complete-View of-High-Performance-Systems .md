@@ -2,7 +2,7 @@
 
 The need to execute complex and demanding problems at scale is more imminent than ever! The rise of big data and the requirements for just in time solutions made HPC a dominant research area of our era.
 
-# Building Blocks of HPC
+## Building Blocks of HPC
 
 Typical HPC systems have 3 main components:
 -	Compute
@@ -13,7 +13,7 @@ HPC solutions can be deployed on Cloud, Edge, and On-Premises. Let’s dive deep
 
 ![img1](/img/basics/block_diag.JPG)
 
-# Compute
+## Compute
 
 To build a high-performance computing architecture, compute servers are networked together into a cluster. There are two types of HPC systems: Homogeneous Systems and Hybrid Systems. Homogeneous systems only have CPUs while the hybrids have both GPUs and CPUs. In Hybrid systems, parallel processing done by multiple CPUs or GPUs and serial processing like running operating systems will be done by CPUs. As of now, 2/3rd  of the supercomputers are hybrid machines because GPUs are more energy efficient, supports faster memory, execute millions of threads simultaneously. 
 
@@ -51,7 +51,7 @@ To build a high-performance computing architecture, compute servers are networke
 
 ![img4](/img/basics/amd_vs_nv.jpg)
 
-# Storage
+## Storage
 
 -	In Scaling out HPC environment, there is a need for new storage systems to provide massive parallel IO to be able to scale out together with the compute. 
 -	Traditional storage consists of various specialized hardware in datacenters such as firewall servers, storage servers, compute servers. Now a days the server’s software defines its role rather than custom hardware. The same server can also be a web server, a load balancer, a storage server, or a compute node - it all depends on the software You install on the server.
@@ -78,7 +78,7 @@ To build a high-performance computing architecture, compute servers are networke
 
 -	To satisfy these use cases, the technologies used in the storage solution could include SAS/SATA disks, SSDs, NVMe and any combination of these. The choice of storage solution would depend on performance, capacity, and cost.
 
-# Network
+## Network
 
 -	High Performance Computing (HPC) networking is very different to the internet or typical local area networks, both in terms of the hardware and the software involved. 
 -	Software and Hardware layers in HPC typically need to provide more stringent guarantees for data delivery. Routing between nodes in a Cluster / Supercomputer.
@@ -105,7 +105,7 @@ To build a high-performance computing architecture, compute servers are networke
 **IPC and Storage Fabric** : Typically, InfiniBand or Omni-Path is used as the high-performance fabric providing low latency and high bandwidth connectivity between compute platforms for IPC and access to the storage.
 
 
-# Software
+## Software
 
 -	HPC cluster software is a suite of tools that are packaged together to make it easy to deploy, administer and maintain the HPC system. As with the hardware, the software is assembled in a modular manner. There are multiple choices for individual components (like resource manager, MPI, compilers etc.) and support for drivers based on the hardware selections.
 -	The cluster software packages allow the administrator to manage the entire HPC system as one unit. 
