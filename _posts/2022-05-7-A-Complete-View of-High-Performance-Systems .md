@@ -17,7 +17,7 @@ HPC solutions can be deployed on Cloud, Edge, and On-Premises. Let’s dive deep
 
 To build a high-performance computing architecture, compute servers are networked together into a cluster. There are two types of HPC systems: Homogeneous Systems and Hybrid Systems. Homogeneous systems only have CPUs while the hybrids have both GPUs and CPUs. In Hybrid systems, parallel processing done by multiple CPUs or GPUs and serial processing like running operating systems will be done by CPUs. As of now, 2/3rd  of the supercomputers are hybrid machines because GPUs are more energy efficient, supports faster memory, execute millions of threads simultaneously. 
 
-### CPU
+# CPU
 
 -	CPUs are architected to handle wide variety of workloads such as complex branch prediction, input/output (I/O) operations, basic arithmetic, and logic.
 -	CPUs can deal with diverse set of instructions to manage all parts of the computer and run all kinds of computer programs.
@@ -35,7 +35,7 @@ To build a high-performance computing architecture, compute servers are networke
 
 ![img2](/img/basics/amd_vs_int.jpg)
 
-### GPU
+# GPU
 
 -	GPUs are architected to deal with potentially large data streams in parallel.
 -	GPUs per-core caches relatively smaller than CPUs, but their memory bandwidth is extremely faster.
