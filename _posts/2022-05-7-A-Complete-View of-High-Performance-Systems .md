@@ -55,7 +55,7 @@ To build a high-performance computing architecture, compute servers are networke
 
 -	In Scaling out HPC environment, there is a need for new storage systems to provide massive parallel IO to be able to scale out together with the compute. 
 -	Traditional storage consists of various specialized hardware in datacenters such as firewall servers, storage servers, compute servers. Now a days the server’s software defines its role rather than custom hardware. The same server can also be a web server, a load balancer, a storage server, or a compute node - it all depends on the software You install on the server.
--	To address the massive parallel IO requirements there were different file systems developed
+-	To address the massive parallel IO requirements there were different file systems developed.
 * **Network File System (NFS)**
    *	NFS is not the actual file system, but the protocol used between the clients and the servers with the data.
    *	NFS failed to serve the ever-changing needs of storage users today. Now a days almost all operating systems can access NFS version 3 storage
@@ -68,7 +68,7 @@ To build a high-performance computing architecture, compute servers are networke
 
 * **Parallel File Systems (PFS)**
    *	PFS has ability to do IO in parallel to multiple file servers, i.e a client can directly access several storage servers in parallel to take advantage of the aggregated bandwidth of multiple servers.
-   *	Parallel file systems distribute data of a single object across mul4ple storage nodes.
+   *	Parallel file systems distribute data of a single object across multiple storage nodes.
    *	Popular parallel file systems are Lustre, Ceph, IBM Spectrum Scale, and BeeGFS.
 
 ![img6](/img/basics/pfs.JPG)
