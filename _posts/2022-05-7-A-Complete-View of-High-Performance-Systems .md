@@ -1,4 +1,4 @@
-### Raise of HPC
+## Raise of HPC
 
 The need to execute complex and demanding problems at scale is more imminent than ever! The rise of big data and the requirements for just in time solutions made HPC a dominant research area of our era.
 
