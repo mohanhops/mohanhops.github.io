@@ -1,14 +1,14 @@
-# What is Virtualization
+## What is Virtualization
 
 Virtualization in general, is widely used to turn individual physical computer into several “virtual computers” that share same physical hardware. These virtual computers known as VMs (Virtual Machines) , realistically pretend to be independent computers on their own, each one booting and running an operating system of its own, as a physical computer would. 
 
-# What is Containerization
+## What is Containerization
 
 Lightweight virtualization or containerization is the packaging together of software code with all it’s necessary components like libraries, frameworks, and other dependencies so that they are isolated in their own "container".  
 
 The main reasons behind using containers for HPC are portability, composability and BYOE(Bring Your Own Environment) . 
 
-## Containers vs Virtual Machines
+# Containers vs Virtual Machines
 
 -	Applications running inside a VM are not only further away from the physical hardware but the layers they must traverse are redundant
 -	Virtual Machines emulate a whole machine. In the case of containers, only the Operating System is virtualized.
@@ -16,17 +16,17 @@ The main reasons behind using containers for HPC are portability, composability 
 
 ![img1](/img/containers/docker_vs_vm_vs_sin.JPG)
 
-## How does Containers matter for HPC
+# How does Containers matter for HPC
 
 Containerization demonstrates its efficiency in application deployment in Cloud Computing. Containers can encapsulate complex programs with their dependencies in isolated environments making applications more portable, hence are being adopted in High Performance Computing (HPC) clusters.
 
-## General Workflow of Containerization
+# General Workflow of Containerization
 
 ![img2](/img/containers/cont_wf.JPG)
 
 In a generic container workflow, a RECIPE file is used to build an IMAGE. These can be pushed-to or pulled-from a REGISTRY which could be local or also public in the cloud. By invoking the ‘run’ command on an IMAGE, a CONTAINER instance is started. Multiple CONTAINER instances of the same image can be started. The ‘exec’ command allows to execute any command of choice within a running container
 
-## Key Benefits of Containers
+# Key Benefits of Containers
 
 -	Containers are **"lightweight"** and no need to set up a separate guest OS for each application since they all share the same OS kernel.
 -	Container images are stored as a single file which makes them easily **shareable**.
@@ -35,13 +35,13 @@ In a generic container workflow, a RECIPE file is used to build an IMAGE. These 
 -	Containers virtualize system resources at the operating system level, providing developers with a view of the OS logically **isolated** from other applications.
 -	Containerization is a crucial tool for streamlining DevOps workflows. Users can create containers rapidly, deploy them to any environment, where they can be used to solve many diverse DevOps challenges.
 
-## Container features not wanted in HPC
+# Container features not wanted in HPC
 
 -	HPC applications cannot incur significant **overhead** from containers
 -	Micro-services container methodology does not apply to HPC workloads
 -	Containers allow root-level access control to users; On supercomputers this is unnecessary and a significant security risk for facilities
 
-## Basic Terminology
+# Basic Terminology
 
 An **image** is a file (or set of files) that contains the application and all its dependencies, libraries, run-time systems, etc. required to run. You can copy images around, upload them, download them etc.
 
@@ -52,35 +52,35 @@ A **registry** is a server application where images are stored and can be access
 
 To build an image we need a recipe. A recipe file is called a **Definition File**, or **def file**, in the ***Singularity*** jargon and a **Dockerfile** in the ***Docker world***.
 
-# Container engines for HPC
+## Container engines for HPC
 
-## Docker
+# Docker
 
 -	Docker is the industry-leading container engine, but Docker has several problems that affect its usage for HPC.
 -	Docker introduces several security concerns that are critical in an HPC environment, such as needing root permissions or being root inside the container.
 -	Docker uses TCP/IP for networking, and it is not trivial to make it use the custom interconnect of the HPC machine (for example, InfiniBand). Some developments have been made in order to solve these issues
 
-## Singularity
+# Singularity
 
 -	The architecture of Singularity is such that common users can safely run their containers on a HPC cluster system without the possibility for root privilege escalation.
 -	Singularity, makes use of Linux kernel ‘namespace’ feature to isolate processes
 -	Singularity supports two image formats: Docker/OCI (Open Container Initiative) and Singularity’s native Single Image Format (SIF). 
 
 
-## Shifter
+# Shifter
 
 -	Shifter is a container engine developed by NERSC for HPC.
 -	Instead of a Docker/OCI format, it uses its own Shifter-specific format, but this is reverse-compatible with Docker container images. It requires hosting a registry service and a Shifter Image Gateway.
 -	The downside to Shifter is lack of community. There are not many other organizations other than NERSC and Cray that appear to support Shifter.
 
-## CharlieCloud
+# CharlieCloud
 
 -	Charliecloud is a promising container engine developed by LANL for HPC. 
 -	Charliecloud supports both MPI and GPUs.
 -	One of the most appealing features is the active effort in moving towards a completely unprivileged mode of operation with containers. If Docker is available on the system, Charliecloud will use it as a privileged backend for pulling and building images.
 -	However, if no Docker is found (always the case in HPC), Charliecloud will fall back to its own unprivileged backends for pulling (experimental) and building. 
 
-##  Podman
+#  Podman
 
 - Podman is an open-source container engine maintained by Red Hat. It has quite similar features to Docker, with some important differences:
   *  Provides support for MPI applications and GPU applications.
@@ -90,12 +90,12 @@ Interestingly, the API is mostly identical to that of Docker, so that in princip
 
 `$ alias docker=podman`
 
-## Enroot
+# Enroot
 
 -	Enroot is Nvidia way of deploying containerized applications on their platforms.
 -	The tool has been kept simple by design and can run fully unprivileged. It comes with native support for GPUs and Mellanox Infiniband (unsurprisingly).
 
-# Creating containers for HPC workloads with Spack and Singularity
+## Creating containers for HPC workloads with Spack and Singularity
 
 [Spack](https://spack.io/) is a package manager for HPC, with the main purpose of automating the build from source of scientific applications and their dependencies. It has many features and functionalities, with a relatively concise command interface to select compilers, package versions, dependencies, build options, and more.
 
@@ -196,4 +196,4 @@ Now you can run the application, which is gromacs in this case, in parallel with
 	-noconfout -nsteps 10000 -g gmx_sing.log`
   
 
-## Have a great day
+### Have a great day
