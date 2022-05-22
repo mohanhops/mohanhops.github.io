@@ -104,7 +104,7 @@ More information on how to customise the creation of Dockerfiles and def files w
 
 ### Installing Spack
 
-Getting Spack is easy. You can clone it from the (github repository)[https://github.com/spack/spack] using this command:
+Getting Spack is easy. You can clone it from the [github repository](https://github.com/spack/spack) using this command:
 
 `$ git clone -c feature.manyFiles=true https://github.com/spack/spack.git`
 
