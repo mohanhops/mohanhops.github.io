@@ -1,9 +1,22 @@
+- company: "Intel"
+  logo: "/img/companylogos/cc.png"
+  url: "https://www.intel.com/"
+  positions:
+  - title: "Senior Engineer"
+    startdate: 2022-08-10
+    summary: "Working on application optimization in the AI-DL domain for Xeon platforms"
+    projects:
+      - "Working on opportunities to optimize AI-DL applications on Xeon platforms."
+      - "Automated benchmarking of Power performance applications and integrated with E2E post-silicon validation code base."
+
+
 - company: "AMD"
   logo: "/img/companylogos/aa.png"
   url: "https://www.amd.com/"
   positions:
   - title: "Senior Software Engineer"
     startdate: 2019-02-01
+    enddate: 2022-08-09
     summary: "Primarily working with HPC application Benchmarking and Tuning, Linux, Python and Shell"
     projects:
       - "Developed Spack recipes for 15+ HPC applications with AMD toolchain support which simplifies building and running Scientific codes on AMD EPYC Servers by contributing to Open Source Spack project."
